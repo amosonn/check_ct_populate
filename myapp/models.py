@@ -8,7 +8,3 @@ class Wrapper(models.Model):
     content_type = models.ForeignKey(ContentType)
     object_id = models.PositiveIntegerField(db_index=True)
     wrapped = GenericForeignKey('content_type', 'object_id')
-
-
-class First(models.Model):
-    pass
