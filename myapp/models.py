@@ -12,3 +12,7 @@ class Wrapper(models.Model):
 
 class First(models.Model):
     pass
+
+
+class Second(models.Model):
+    pass
